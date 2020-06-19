@@ -14,7 +14,7 @@
 	color: white;
 	top: 0;
 	left: 0;
-	
+
 }
 
 
@@ -45,10 +45,10 @@ h1 {
 .hamburger .bar {
     padding: 0;
     width: 30px;
-    height: 4px;
+    height: 2px;
     background-color: white;
     display: block;
-    border-radius: 4px;
+    
     transition: all 0.4s ease-in-out;
     position: absolute; 
 }
@@ -80,25 +80,25 @@ h1 {
 
 .checkbox3:checked + label > .hamburger3 > .bar1{
     transform: rotate(45deg);
-    height: 3px;
+    height: 2px;
     width: 42px;
 }
 
 .checkbox3:checked + label > .hamburger3 > .bar3{
     transform: rotate(45deg);
-    height: 3px;
+    height: 2px;
     background-color: transparent;
 }
 
 .checkbox3:checked + label > .hamburger3 > .bar2{
     transform: rotate(-45deg);
-    height: 3px;
+    height: 2px;
     background-color: transparent;
 }
 
 .checkbox3:checked + label > .hamburger3 > .bar4{
     transform: rotate(-45deg);
-    height: 3px;
+    height: 2px;
     width: 42px;
 }
 
