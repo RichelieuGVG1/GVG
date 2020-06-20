@@ -1,8 +1,8 @@
 *{
 	font-family: Arial;
     font-weight: lighter;
-    /*word-spacing: 3px;
-    letter-spacing: 4px;*/
+    word-spacing: 3px;
+    letter-spacing: 2px;
     scroll-behavior: smooth;
 	
 }
@@ -110,12 +110,15 @@ html, body{
 	height: auto;
 	float: right;
 	background-size:cover;
-	margin-right: -20px;
+	padding-right: -20px;
+	
 
 }
 
 #art{
-	width: 100%;
+	width: 100vw;
+	max-width: 100%;
+	
 	display: table;
 	background-color: white;
 	display: flex;
@@ -123,7 +126,6 @@ html, body{
 	padding-top: -20px;
 }
 #art p{
-	padding-right: 20px;
 	font-size: 25px;
 	margin: 0;
 }
@@ -136,4 +138,35 @@ html, body{
 	margin: 0;
 	text-align: right;
 	
+}
+
+
+menu{
+	text-decoration: none;
+	background-color: #141c1c;
+	position: fixed;
+	z-index: 2;
+	width: 300px;
+	height: 100%;
+	margin-top: 70px;
+	display: none;
+	color: #c2c2c2;
+
+	animation-name: move;
+	animation-duration: 0.5s;
+	-webkit-animation-name: move;
+	-webkit-animation-duration: 0.5s;
+
+	color: white;
+	font-size: 22px;
+	padding-left: -30px;
+}
+
+@keyframes move{
+	0%{margin-left: -300px;}
+	100%{margin-left: 0px;}
+}
+@-webkit-keyframes move{
+	0%{margin-left: 0px;}
+	100%{margin-left: 100px;}
 }
