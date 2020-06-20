@@ -105,9 +105,12 @@ html, body{
 
 #art img{
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
-	transform: scale(-1, 1);
-	width: 50vw;
+	shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+	width: 60vw;
 	height: auto;
+	float: right;
+	background-size:cover;
+	margin-right: -20px;
 
 }
 
