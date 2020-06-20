@@ -179,7 +179,6 @@ overflow-y: scroll;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 30px;
 }
 #menu-style h3, h6{
 	margin: 0;
