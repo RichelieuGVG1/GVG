@@ -9,6 +9,19 @@
 	<link href="http://allfont.ru/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 
 	<title>Главная</title>
+	<script type="text/javascript">
+		var i=1;
+		function slider(){
+			i++;
+			if(i%2==0){
+				body.getElementsByTagName("menu").style.display = "block";
+			}
+			else{
+				body.getElementsByTagName("menu").style.display = "none";
+			}
+		}
+
+	</script>
 </head>
 <body>
 
@@ -38,6 +51,14 @@
     </div>
 </div>
 
+
+<menu onclick="slider()" >
+			<nav>1</nav>
+			<nav>2</nav>
+			<nav>3</nav>
+			
+		</menu>
+
 <section class='paralax'>
 	<div class='main-text'>
 		<h2 class='txt'>Персональный сайт Василия Гурьянова</h2>
@@ -54,8 +75,11 @@
 <div id='art'>
 	<p>
 		<img src="img/back1.jpg"  alt=''>
-		
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<span>
+		<i>Lorem ipsum</i><br> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</span>
+
+	</p>
 </div>
 
 
@@ -73,5 +97,6 @@
 	});
 </script>
 -->
+
 </footer>
 </html>
