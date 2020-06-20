@@ -9,19 +9,7 @@
 	<link href="http://allfont.ru/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 
 	<title>Главная</title>
-	<script type="text/javascript">
-		var i=1;
-		function slider(){
-			i++;
-			if(i%2==0){
-				body.getElementsByTagName("menu").style.display = "block";
-			}
-			else{
-				body.getElementsByTagName("menu").style.display = "none";
-			}
-		}
-
-	</script>
+	
 </head>
 <body>
 
@@ -52,12 +40,39 @@
 </div>
 
 
-<menu onclick="slider()" >
-			<nav>1</nav>
-			<nav>2</nav>
-			<nav>3</nav>
+<nav id='left-menu'>
+	<div id='menu-style'>
+	<h3>Сайт Гурьянова</h3>
+	<h6>Добро пожаловать!</h6>
+
+	<ul>
+		<li>Главная</li>
+		<li>Фотографии
+			<ul>
+				<li>Астрофото</li>
+				<li>Города</li>
+				<li>Пейзажи</li>
+				<li>Макро</li>
+				<li>Пленка</li>
+			</ul>
+
+		</li>
+		<li>Проекты
+			<ul>
+				<li>WEB</li>
+				<li>Техно</li>
+			</ul>
+		</li>
+		<li>Мероприятия</li>
+		<li>Записки</li>
+
+	</ul>
+
+
+</div>
+	
 			
-		</menu>
+		</nav>
 
 <section class='paralax'>
 	<div class='main-text'>
@@ -73,13 +88,13 @@
 
 </div>
 <div id='art'>
-	<p>
+	<div>
 		<img src="img/back1.jpg"  alt=''>
 		<span>
 		<i>Lorem ipsum</i><br> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</span>
 
-	</p>
+	</div>
 </div>
 
 
@@ -97,6 +112,19 @@
 	});
 </script>
 -->
+<script type="text/javascript">
+		var i=1;
+		function slider(){
+			i++;
+			if(i%2==0){
+				document.getElementById("left-menu").style.display = "block";
+			}
+			else{
+				document.getElementById("left-menu").style.display = "none";
+			}
+		}
+
+	</script>
 
 </footer>
 </html>
