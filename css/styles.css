@@ -111,7 +111,10 @@ html, body{
 	float: right;
 	background-size:cover;
 	padding-right: -20px;
-	
+
+	padding-left: -15px;
+	padding-right: -15px;
+	padding-top: -30px;
 
 }
 
@@ -125,23 +128,26 @@ html, body{
 	justify-content: space-between;
 	padding-top: -20px;
 }
-#art p{
+#art > div:not(img){
 	font-size: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
 	margin: 0;
-}
-#art figcaption{
-	text-align: center;
-}
-#art figure{
-	float: left;
-	height: 250px;
-	margin: 0;
-	text-align: right;
-	
 }
 
 
-menu{
+@keyframes move{
+	0%{margin-left: -300px;}
+	100%{margin-left: 0px;}
+}
+@-webkit-keyframes move{
+	0%{margin-left: 0px;}
+	100%{margin-left: 100px;}
+}
+
+
+#left-menu{
 	text-decoration: none;
 	background-color: #141c1c;
 	position: fixed;
@@ -160,13 +166,24 @@ menu{
 	color: white;
 	font-size: 22px;
 	padding-left: -30px;
+
+	
 }
 
-@keyframes move{
-	0%{margin-left: -300px;}
-	100%{margin-left: 0px;}
+#menu-style{
+overflow-y: scroll;
+	overflow-x: hidden;
+	list-style: none;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
 }
-@-webkit-keyframes move{
-	0%{margin-left: 0px;}
-	100%{margin-left: 100px;}
+#menu-style h3, h6{
+	margin: 0;
+}
+#menu-style h3{
+	margin-top: 10px;
 }
