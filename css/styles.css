@@ -108,10 +108,6 @@ html, body{
 	transform: scale(-1, 1);
 	width: 50vw;
 	height: auto;
-	float: left;
-	background-size: cover;
-
-
 
 }
 
@@ -121,12 +117,20 @@ html, body{
 	background-color: tomato;
 	display: flex;
 	justify-content: space-between;
+	padding-top: -20px;
 }
 #art p{
 	padding-right: 20px;
 	font-size: 25px;
 	margin: 0;
 }
-
-
-
+#art figcaption{
+	text-align: center;
+}
+#art figure{
+	float: left;
+	height: 250px;
+	margin: 0;
+	text-align: right;
+	
+}
