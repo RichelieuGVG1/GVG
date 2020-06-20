@@ -39,7 +39,7 @@ html, body{
 }
 .strelka{
 	z-index: 1;
-	margin-top: 260px;
+	margin-top: 250px;
 	position: absolute;
 	animation-name: floating;
     -webkit-animation-name: floating;
