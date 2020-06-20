@@ -3,6 +3,7 @@
     font-weight: lighter;
     /*word-spacing: 3px;
     letter-spacing: 4px;*/
+    scroll-behavior: smooth;
 	
 }
 html, body{
