@@ -117,7 +117,7 @@ html, body{
 #art{
 	width: 100%;
 	display: table;
-	background-color: tomato;
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	padding-top: -20px;
