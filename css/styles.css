@@ -138,7 +138,7 @@ html, body{
 
 
 @keyframes move{
-	0%{margin-left: -300px;}
+	0%{margin-left: -200px;}
 	100%{margin-left: 0px;}
 }
 @-webkit-keyframes move{
@@ -167,13 +167,16 @@ html, body{
 	font-size: 22px;
 	padding-left: -30px;
 
+	overflow-y: scroll;
+
 	
+}
+ul,li{
+	list-style: none;
 }
 
 #menu-style{
-overflow-y: scroll;
-	overflow-x: hidden;
-	list-style: none;
+	
 
 	display: flex;
 	justify-content: center;
