@@ -102,7 +102,18 @@ html, body{
     box-shadow: inset 100vh 100vw rgba(0, 0, 0, 0.8);
 
 }
+@media(max-width: 500px){
+	#art span{
+		font-size: 15px;
+		line-height: 22px;
+}
+@media (min-width: 501px){
+	#art img{
+		width: 30vw;
+	}
+}
 
+}
 #art img{
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
 	shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
@@ -127,6 +138,8 @@ html, body{
 	display: flex;
 	justify-content: space-between;
 	padding-top: -20px;
+
+	line-height: 35px;
 }
 #art > div:not(img){
 	font-size: 25px;
