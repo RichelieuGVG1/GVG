@@ -279,3 +279,18 @@ hr{
 	position: absolute;
 }
 
+#ul2{
+	animation-name: ul-anima;
+	animation-duration: 0.2s;
+	display: none;
+}
+
+@keyframes ul-anima{
+	0%{margin-left: -50px;}
+	100%{margin-left: 0px;}
+}
+
+#im2{
+	position: absolute;
+}
+
