@@ -42,10 +42,33 @@
 	<h3>Сайт Гурьянова</h3>
 	<h6><i style="color: #a4a4a4;">Добро пожаловать!</i></h6>
 
+<script>
+		var l=1;
+		function st1(){
+			l++;
+			if(l%2==0){
+				document.getElementById("ul1").style.display = "block";
+
+				document.getElementById("im1").style.transform = "rotate(180deg)";
+				document.getElementById("im1").style.transition = "0.2s";
+			}
+			else{
+				document.getElementById("ul1").style.display = "none";
+				document.getElementById("im1").style.transform = "rotate(0deg)";
+				document.getElementById("im1").style.transition = "0.1s";
+			}
+		}
+
+	</script>
+
+
+
 	<ul>
 		<li>Главная</li>
 		<li>Фотографии
-			<ul>
+
+			<img onclick="st1()" id='im1' src="img/st.svg" width="20" height="20" style="margin-top: 3px;">
+			<ul id='ul1'>
 				<li>Астрофото</li>
 				<li>Города</li>
 				<li>Пейзажи</li>
