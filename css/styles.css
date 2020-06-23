@@ -303,7 +303,32 @@ form{
 
 
 #sozialistische-icons{
+	padding-left: 0;
+	width: 180px;
+	margin-top: -15px;
+
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
+}
+
+body{
+	position: relative;
+}
+#banner{
+	position: fixed;
+	background-color: red;
+	opacity: 0.7;
+	width: 300px;
+	height: 100px;
+	z-index: 999999999;
+
+	bottom: 0;
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+
+}
+#banner img{
+	right: 0;
 }
