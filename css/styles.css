@@ -300,3 +300,10 @@ li{
 form{
 	margin-bottom: -25px;
 }
+
+
+#sozialistische-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
