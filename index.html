@@ -42,44 +42,13 @@
 	<h3>Сайт Гурьянова</h3>
 	<h6><i style="color: #a4a4a4;">Добро пожаловать!</i></h6>
 
-<script>
-		var l=1;
-		function st1(){
-			l++;
-			if(l%2==0){
-				document.getElementById("ul1").style.display = "block";
-
-				document.getElementById("im1").style.transform = "rotate(180deg)";
-				document.getElementById("im1").style.transition = "0.2s";
-			}
-			else{
-				document.getElementById("ul1").style.display = "none";
-				document.getElementById("im1").style.transform = "rotate(0deg)";
-				document.getElementById("im1").style.transition = "0.1s";
-			}
-		}
-
-	</script>
-	<script>
-		var k=1;
-		function st2(){
-			k++;
-			if(k%2==0){
-				document.getElementById("ul2").style.display = "block";
-
-				document.getElementById("im2").style.transform = "rotate(180deg)";
-				document.getElementById("im2").style.transition = "0.2s";
-			}
-			else{
-				document.getElementById("ul2").style.display = "none";
-				document.getElementById("im2").style.transform = "rotate(0deg)";
-				document.getElementById("im2").style.transition = "0.1s";
-			}
-		}
-
-	</script>
 
 
+<form method="GET"> 
+   <p><input type="search" name="q" placeholder="Поиск по сайту"> 
+   	<input type="submit">
+   	<img id='zalupa-img' src="img/zalupa.png" width="22" height="22" alt=''></p>
+  </form>
 
 	<ul style="padding-left: 0;">
 		<li>Главная</li>
@@ -108,11 +77,7 @@
 
 	</ul>
 
-<form method="GET"> 
-   <p><input type="search" name="q" placeholder="Поиск по сайту"> 
-   	<input type="submit">
-   	<img id='zalupa-img' src="img/zalupa.png" width="22" height="22" alt=''></p>
-  </form>
+
 </div>
 	
 			
@@ -182,6 +147,43 @@
 			}
 			else{
 				document.getElementById("left-menu").style.display = "none";
+			}
+		}
+
+	</script>
+
+<script>
+		var l=1;
+		function st1(){
+			l++;
+			if(l%2==0){
+				document.getElementById("ul1").style.display = "block";
+
+				document.getElementById("im1").style.transform = "rotate(180deg)";
+				document.getElementById("im1").style.transition = "0.2s";
+			}
+			else{
+				document.getElementById("ul1").style.display = "none";
+				document.getElementById("im1").style.transform = "rotate(0deg)";
+				document.getElementById("im1").style.transition = "0.1s";
+			}
+		}
+
+	</script>
+	<script>
+		var k=1;
+		function st2(){
+			k++;
+			if(k%2==0){
+				document.getElementById("ul2").style.display = "block";
+
+				document.getElementById("im2").style.transform = "rotate(180deg)";
+				document.getElementById("im2").style.transition = "0.2s";
+			}
+			else{
+				document.getElementById("ul2").style.display = "none";
+				document.getElementById("im2").style.transform = "rotate(0deg)";
+				document.getElementById("im2").style.transition = "0.1s";
 			}
 		}
 
