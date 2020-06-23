@@ -263,3 +263,19 @@ hr{
 #menu-style form{
 	justify-content: center;
 }
+
+#ul1{
+	animation-name: ul-anima;
+	animation-duration: 0.2s;
+	display: none;
+}
+
+@keyframes ul-anima{
+	0%{margin-left: -50px;}
+	100%{margin-left: 0px;}
+}
+
+#im1{
+	position: absolute;
+}
+
