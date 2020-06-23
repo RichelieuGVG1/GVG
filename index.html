@@ -13,7 +13,10 @@
 </head>
 <body>
 	<div id='banner'>
-		<img src="img/cross.png" height="30">
+		
+		<img onclick='huy()'src="img/cross.png"  height="30">
+		<p>
+		<strong>Внимание! Ахтунг!</strong><br>Если верстка сайта ломается на вашем устройстве - напишите об этом мне, а лучше выкиньте нахрен свой телефон/комп и не позорьтесь!</p>
 	</div>
 <header>
 <div id='menu'>
@@ -169,7 +172,19 @@
 </ul>
 </div>
 
+<script>
+	
 
+
+	function huyy() {
+  document.getElementById("banner").style.transition = "1s";
+  document.getElementById("banner").style.opacity = "0";
+  
+}
+
+setTimeout(huyy, 8000);
+
+</script>
 
 
 <script>
@@ -221,6 +236,9 @@
 			}
 		}
 
+	</script>
+	<script >
+		function huy(){document.getElementById("banner").style.display = "none";}
 	</script>
 </body>
 <footer>
