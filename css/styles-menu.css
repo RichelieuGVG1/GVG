@@ -1,4 +1,4 @@
-.vis {
+.visuallyHidden {
     position: absolute; 
     overflow: hidden; 
     clip: rect(0 0 0 0); 
@@ -134,7 +134,7 @@ h1 {
 	justify-content: space-around;
 
 }
-#ico2{
+.ico2{
 	padding-left: 10px;
 }
 .container0{
