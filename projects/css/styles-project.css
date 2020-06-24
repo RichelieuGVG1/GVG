@@ -1,0 +1,75 @@
+*{
+	font-family: Arial;
+    font-weight: lighter;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    scroll-behavior: smooth;
+	
+}
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.main-container{
+	background-image: url('../img/back.jpg');
+	background-position: center;
+    overflow: hidden;
+
+    z-index: -100;
+
+    width: 100%;
+    z-index: 9999999;
+    height: 100vh;
+}
+
+.content{
+	width: 77%;
+    height: 90%;
+
+    background-color: white;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+
+.header{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.main-hr{
+	width: 40%;
+	height: 1px;
+	background-color: grey;
+	border: none;
+}
+
+#web, #techno{
+	text-align: left;
+	font-size: 20px;
+}
+
+ul, li{
+	list-style: none;
+}
+
+.project-card{
+	width: 300px;
+	height: 400px;
+
+	background-color: grey;
+}
+
+.project-card img{
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
