@@ -394,3 +394,13 @@ footer a{
 	text-decoration: none;!important
 	color: #42444a;!important
 }
+
+
+
+@media(max-width: 867px){
+	#main-list{
+		display: flex;
+		flex-direction: column;
+		
+	}
+}
