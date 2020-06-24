@@ -340,3 +340,8 @@ body{
 	padding: 5px 5px;
 	color: white;
 }
+
+footer{
+	height: 1000px;
+	background-color: #2e3238;
+}
