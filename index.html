@@ -9,6 +9,8 @@
 	<link href="http://allfont.ru/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 
 	<title>Главная</title>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	
 </head>
 <body link="#ffcc00" vlink="#cecece" alink="#ff0000">
@@ -21,7 +23,7 @@
 <header>
 <div id='menu'>
 		<div class='container' >
-				<input type="checkbox" id="checkbox3" onclick="slider()" class="checkbox3 vis">
+				<input type="checkbox" id="checkbox3" onclick="slider()" class="checkbox3 visuallyHidden">
 	        	<label for="checkbox3">
 	            	<div class="hamburger hamburger3">
 	                	<span class="bar bar1" ></span>
@@ -44,7 +46,7 @@
 
 
 <nav id='left-menu'>
-	<div id='menu-style'>
+	<div class='menu-style'>
 	<h3>Сайт Гурьянова</h3>
 	<h6><i style="color: #a4a4a4;">Добро пожаловать!</i></h6>
 
@@ -53,7 +55,7 @@
 <form method="GET"> 
    <p><input type="search" name="q" placeholder="Поиск по сайту"> 
    	<input type="submit">
-   	<img id='zalupa-img' src="img/zalupa.png" width="22" height="22" alt=''></p>
+   	<img class='zalupa-img' src="img/zalupa.png" width="22" height="22" alt=''></p>
   </form>
 
 	<ul style="padding-left: 0;">
@@ -82,9 +84,10 @@
 
 
 	</ul>
+	
 
 <div >
-	<ul id='sozialistische-icons'>
+	<ul class='sozialistische-icons'>
 		<li>
 			<a target='_blank' href="tel:+79857236391">
 				<img src="img/tel.png" width='30' alt='Телефон'>
@@ -115,9 +118,21 @@
 </div>
 
 
+<hr>
+
+<ul class='language'>
+		<li onclick='rus_switch()'>
+			<img src="img/rus.png" width="30">
+		</li>
+		<li onclick='eng_switch()'>
+			<img src="img/usa.png"  width="30" height="20">
+		</li>
+	</ul>
+
 </div>
-	
-			
+
+
+
 		</nav>
 </header>
 <section class='paralax'>
@@ -145,9 +160,21 @@
 
 	</div>
 </div>
+<div class='art' style="display: none;">
+	<div>
+		<img src="img/back1.jpg"  alt=''>
+		<span>
+
+		<p><big>Hello, friend!</big><br><br> Thank you for coming here. Let's figure out where fate brought you. This is my <a target='_blank' href="https://vk.com/guriliy_vasyanov">personal</a> site that is dedicated to me and my achievements. Here you can read about myself, about my skills and work.
+		</p>
+		<p>Well, now a few words according to the law of the genre of the author. I live in Moscow, I am 16 years old and I do a lot of things: from photographing and painting, to website development and event organization. Now I am studying at Lyceum 1502, where I will go - the devil knows.</p>
+	</span>
+
+	</div>
+</div>
 
 
-<div id='skills'>
+<div class='skills'>
 	<hr>
 	<strong><h3>Мои навыки</h3></strong>
 	<ul>
@@ -171,6 +198,28 @@
 		</li>
 </ul>
 </div>
+
+
+<script>
+	function rus_switch(){
+		document.getElementById("rus_translate").style.display = "block";
+		document.getElementById("eng_translate").style.display = "none";
+	}
+	function eng_switch(){
+		document.getElementById("rus_translate").style.display = "none";
+		document.getElementById("eng_translate").style.display = "block";
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
 
 <script>
 	
@@ -241,10 +290,10 @@ setTimeout(huyy, 10000);
 		function huy(){document.getElementById("banner").style.display = "none";}
 	</script>
 </body>
-<footer id='leg'>
+<footer class='leg'>
 	
-<nav id='donw-menu'>
-	<ul id='main-list'>
+<nav class='donw-menu'>
+	<ul class='main-list'>
 		<li>
 			<ul>
 				<li class='main-li'>ФОТОГРАФИИ</li>
@@ -277,7 +326,7 @@ setTimeout(huyy, 10000);
 			<ul link="#42444a" vlink="#42444a" alink="#42444a" >
 				<li>
 					<a href="https://vk.com/guriliy_vasyanov"  target="_blank">
-						<div id='podpisochka'>
+						<div class='podpisochka'>
 							<p>
 								ПОДПИСАТЬСЯ
 							</p>
@@ -285,12 +334,12 @@ setTimeout(huyy, 10000);
 					</a>
 				</li>
 
-				<li id='images'>
+				<li class='images'>
 					<a target="_blank" href="tel:+79857236391" style="color: rgb(206, 206, 206)">
 						<img  src="img/tele.png" width="20">
 						<span> +7(985)-723-63-91</span>
 					</a>
-				</li id='images'>
+				</li class='images'>
 
 				<li>
 					<a target="_blank" href="mailto:professorgru@gmail.com" style="color: rgb(206, 206, 206)">
@@ -299,7 +348,7 @@ setTimeout(huyy, 10000);
 					</a>
 				</li>
 
-				<li id='images'>
+				<li class='images'>
 					<a target="_blank" href="https://www.google.com/maps/place/55%C2%B045'36.9%22N+37%C2%B049'48.0%22E/@55.76025,37.8294528,19z/">
 						<img src="img/geo.png" width="20">
 						<span> г. Москва, ул. Молостовых,<br> 10А, 3 этаж, лаб.№315</span>
@@ -314,7 +363,7 @@ setTimeout(huyy, 10000);
 
 <hr>
 
-	<ul id='sozialistische-icons'>
+	<ul class='sozialistische-icons'>
 		<li>
 			<a target='_blank' href="tel:+79857236391">
 				<img src="img/tel.png" width='30' alt='Телефон'>
@@ -344,8 +393,8 @@ setTimeout(huyy, 10000);
 
 <hr>
 
-<div id='copyright'>
-	©Сайт Василия Гурьянова. All right reserved.<br>2020, Москва
+<div class='copyright'>
+	©Сайт Василия Гурьянова. All rights reserved.<br>2020, Москва
 </div>
 
 
