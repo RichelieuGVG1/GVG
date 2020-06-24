@@ -233,7 +233,7 @@ ul,li{
 	display: flex;
 	justify-content: center;
 }
-hr{
+#skills hr{
 	width: 70%;
 	background-color: #545454;
 	height: 1px;
@@ -401,6 +401,36 @@ footer a{
 	#main-list{
 		display: flex;
 		flex-direction: column;
-		
+
 	}
+}
+
+footer #sozialistische-icons{
+	margin-left: 16vw;
+	display: flex;
+	justify-content: space-around;
+
+	margin-top: 0;
+}
+
+footer hr{
+	height: 1px;
+	filter: none;
+	width: 80%;
+	border: none;
+	background-color: grey;
+
+}
+footer #sozialistische-icons li{
+	margin-left: 20px;
+}
+
+
+#copyright{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+	margin-top: 15px;
+	margin-bottom: 10px;
 }
