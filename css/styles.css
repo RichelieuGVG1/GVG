@@ -344,4 +344,11 @@ body{
 footer{
 	height: 1000px;
 	background-color: #2e3238;
+	color: white;
+}
+
+#main-list{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
