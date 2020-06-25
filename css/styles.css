@@ -370,6 +370,7 @@ footer{
 	padding-top: 8px;
 	padding-left: 6px;
 	text-decoration: none;
+	color: white;
 }
 
 .images{ 
@@ -451,6 +452,10 @@ footer .sozialistische-icons li{
 
 
 
-.eng_translate{
+#eng_translate{
 	display: none;
+}
+
+#cat span{
+	color: white;
 }
