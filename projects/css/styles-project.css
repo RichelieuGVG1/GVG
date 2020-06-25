@@ -35,6 +35,7 @@ html, body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30px;
+    margin-bottom: 30px;
 
     text-align: center;
 }
@@ -78,7 +79,7 @@ ul, li{
 	z-index: 99999;
 	color: white;
 	text-align: left;
-	padding: 5px;
+	padding: 7px;
 	margin: 0;
 }
 .project-card img{
