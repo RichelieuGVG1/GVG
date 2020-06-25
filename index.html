@@ -8,16 +8,23 @@
 	<link rel="shortcut icon" href="img/ava.ico" type="image/x-icon" />
 	<link href="http://allfont.ru/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 
-	<title>Главная</title>
+	<title >Главная</title>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="scripts/script.js"></script>
+	<script src="scripts/lang.js"></script>
 	
 </head>
 <body link="#ffcc00" vlink="#cecece" alink="#ff0000">
+
+
+
+
+	<div id='rus_translate'>
 	<div id='banner'>
 		
 		<img onclick='huy()'src="img/cross.png"  height="30">
-		<p>
+		<p id='change' caption='p_banner'>
 		<strong>Внимание! Ахтунг!</strong><br>Если звезды так сложились, что верстка сайта кривая на вашем устройстве - напишите об этом <a href="#leg">мне</a>, а лучше выкиньте нахрен свой телефон/комп и не позорьтесь!</p>
 	</div>
 <header>
@@ -47,7 +54,7 @@
 
 <nav id='left-menu'>
 	<div class='menu-style'>
-	<h3>Сайт Гурьянова</h3>
+	<h3 id='change' caption='site_text'>Сайт Гурьянова</h3>
 	<h6><i style="color: #a4a4a4;">Добро пожаловать!</i></h6>
 
 
@@ -124,11 +131,14 @@
 <hr>
 
 <ul class='language'>
-		<li onclick='rus_switch()'>
+		<li onclick='rus_switch()' class='rus'>
 			<img src="img/rus.png" width="30">
 		</li>
-		<li onclick='eng_switch()'>
+		<li onclick='eng_switch()' class='eng'>
 			<img src="img/usa.png"  width="30" height="20">
+		</li>
+		<li onclick='dorev_switch()'>
+			<img src="img/dorev.png"  width="30" height="20">
 		</li>
 	</ul>
 
@@ -140,7 +150,7 @@
 </header>
 <section class='paralax'>
 	<div class='main-text'>
-		<h2 class='txt'>Персональный сайт Василия Гурьянова</h2>
+		<h2 class='txt' id='change' caption='personal'>Персональный сайт Василия Гурьянова</h2>
 		<h5 class='txt'>Здесь вы можете найти больше информации про Василия Гурьянова, ознакомиться с его работами, портфолио, проектами. Приятного чтения!</h5>
 		<a href="#art" class="strelka">
 		    <svg  style="fill:#ffffff;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592"><g><path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path></g></svg>
@@ -202,17 +212,7 @@
 </ul>
 </div>
 
-
-<script>
-	function rus_switch(){
-		document.getElementById("rus_translate").style.display = "block";
-		document.getElementById("eng_translate").style.display = "none";
-	}
-	function eng_switch(){
-		document.getElementById("rus_translate").style.display = "none";
-		document.getElementById("eng_translate").style.display = "block";
-	}
-</script>
+</div>
 
 
 
@@ -224,74 +224,10 @@
 
 
 
-<script>
-	
 
 
-	function huyy() {
-  document.getElementById("banner").style.transition = "1s";
-  document.getElementById("banner").style.opacity = "0";
-  
-}
-
-setTimeout(huyy, 10000);
-
-</script>
 
 
-<script>
-		var i=1;
-		function slider(){
-			i++;
-			if(i%2==0){
-				document.getElementById("left-menu").style.display = "block";
-			}
-			else{
-				document.getElementById("left-menu").style.display = "none";
-			}
-		}
-
-	</script>
-
-<script>
-		var l=1;
-		function st1(){
-			l++;
-			if(l%2==0){
-				document.getElementById("ul1").style.display = "block";
-
-				document.getElementById("im1").style.transform = "rotate(180deg)";
-				document.getElementById("im1").style.transition = "0.2s";
-			}
-			else{
-				document.getElementById("ul1").style.display = "none";
-				document.getElementById("im1").style.transform = "rotate(0deg)";
-				document.getElementById("im1").style.transition = "0.1s";
-			}
-		}
-
-	</script>
-	<script>
-		var k=1;
-		function st2(){
-			k++;
-			if(k%2==0){
-				document.getElementById("ul2").style.display = "block";
-
-				document.getElementById("im2").style.transform = "rotate(180deg)";
-				document.getElementById("im2").style.transition = "0.2s";
-			}
-			else{
-				document.getElementById("ul2").style.display = "none";
-				document.getElementById("im2").style.transform = "rotate(0deg)";
-				document.getElementById("im2").style.transition = "0.1s";
-			}
-		}
-
-	</script>
-	<script >
-		function huy(){document.getElementById("banner").style.display = "none";}
-	</script>
 </body>
 <footer id='leg'>
 	
