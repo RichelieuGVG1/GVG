@@ -27,7 +27,7 @@ html, body{
 }
 
 .content{
-	width: 77%;
+	width: 73%;
     height: 90%;
 
     background-color: white;
@@ -62,14 +62,22 @@ ul, li{
 }
 
 .project-card{
-	width: 300px;
-	height: 400px;
 
-	background-color: grey;
+    width: 250px;
+    height: 250px;
+
+    background-color: #999999;
+    
 }
 
-.project-card img{
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
+.project-card:hover{
+	opacity: 0.7;
+}
+.project-card p{
+	z-index: 99999;
+	color: white;
+	text-align: left;
+	padding: 8px;
+	margin: 0;
+	text-decoration: none!important;
 }
