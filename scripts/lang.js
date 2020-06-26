@@ -35,6 +35,7 @@ $(document).ready(function() {
       site_text: 'Сайт Гурьянова',
       personal : 'Персональный сайт Василия Гурьянова',
       opisanie : 'Здесь вы можете найти больше информации про Василия Гурьянова, ознакомиться с его работами, портфолио, проектами. Приятного чтения!',
+      welcome : 'Добро пожаловать!',
    };
    var eng = {
       p_banner: 'If your verst is broken - throw the hell out of your device!',
@@ -42,15 +43,16 @@ $(document).ready(function() {
       site_text: 'Guryanov site',
       personal : 'Guryanov Vasily personal site',
       opisanie : 'Here you can find more information about Vasily Guryanov, get acquainted with his works, portfolio, projects. Enjoy reading!',
-   
+      welcome : 'Welcome!',
    };
 
    var dorev = {
       p_banner: 'Милостивый государь, если ваше устройство по независящимъ отъ Господа причинамъ изволило невѣрно изобразить аппликацію господина ​Гурьянова, пожалуйте отписать ему лично, или соблаговолите избавиться отъ сего девайса',
       title:'Главныя письмена',
       site_text: 'Сайтъ Василія',
-      personal : 'Собственная Е. И. В. ​Гурьянова Василія Аппликація ',
+      personal : 'Собственная тайнаго совѣтника ​Гурьянова Василія Аппликація ',
       opisanie : 'Здѣсь Вы вольны сыскать больше ​сведеній про Василія ​Гурьянова, ознакомиться съ его работами, портфоліо, проектами. Пріятнаго чтенія, сударь! ',
+      welcome : 'Сердѣчно рады вамъ!',
    };
 
 
