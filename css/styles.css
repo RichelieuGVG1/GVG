@@ -463,3 +463,11 @@ footer .sozialistische-icons li{
 .language li{
 	margin-left: 15px;
 }
+
+a{
+	text-decoration: none!important;
+}
+#ul-left a{
+	color: white;
+	cursor: pointer;
+}
