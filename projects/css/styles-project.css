@@ -3,6 +3,7 @@
     font-weight: lighter;
     word-spacing: 3px;
     letter-spacing: 1.5px;
+    line-height: 25px;
     scroll-behavior: smooth;
 	
 }
@@ -61,7 +62,7 @@ html, body{
 
 .main-hr{
 	width: 40%;
-	height: 1px;
+	height: 1.5px;
 	background-color: grey;
 	border: none;
 }
@@ -161,4 +162,8 @@ table{
 #closed{
 	font-weight: 600;
 	color: #cb0101;
+}
+
+#main-text{
+	padding: 10px;
 }
