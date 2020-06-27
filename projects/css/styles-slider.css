@@ -33,14 +33,14 @@
 @media (max-width: 998px){
 .img-box {
 	flex-grow: 1;
-	background-size: 300px 200px;
+	background-size: 500px 200px;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: 1s;
 	filter: grayscale(1);
 }
 .img-box:hover {
-	background-size: 650px 433px;
+	background-size: 150px 100px;
 	flex-grow: 5;
 	filter: grayscale(0);
 	opacity: 1;
