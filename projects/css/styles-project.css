@@ -188,3 +188,12 @@ table{
 	height: auto;
 
 }
+.container{
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+#box{
+	padding-left: 15px;
+	padding-right: 15px;
+}
