@@ -8,9 +8,14 @@
 	<link rel="shortcut icon" href="../../../../img/ava.ico" type="image/x-icon" />
 	<link href="http://allfont.ru/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 
+	<link rel="stylesheet" href="../../../owl-carousel/css/owl.carousel.css">
+	<link rel="stylesheet" href="../../../owl-carousel/css/owl.theme.green.css">
+
 	<title>Главная - проекты</title>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<script src="../../../css/slick.min.js"></script>
 </head>
 <body>
 
@@ -52,7 +57,7 @@
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
+<!--
 		<div class="dws-wrapper">
     <section class="container-images">
 	    <div class="img-box" style="background-image: url(1.jpg)"></div>
@@ -62,10 +67,36 @@
 		   
 	    </div>
     </section>
-</div>
-		
+-->
+<div class="container content">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="owl-carousel owl-theme">
+				<div><img src="1.jpg"></div>
+				<div><img src="2.jpg"></div>
+				<div><img src="3.jpg"></div>
+				<div><img src="4.jpg"></div>
+			</div>
+		</div>
 	</div>
 </div>
 
+	</div>
+</div>
+<script>
+$(function() {
+	$(".owl-carousel").owlCarousel({
+		nav:true,
+		loop:true,
+		responsiveClass:true,
+		responsive:{
+        1000:{
+            items:1,
+        }
+    }
+	});
+});
+	</script>
+	<script src="../../../owl-carousel/js/owl.carousel.js"></script>
 </body>
 </html>
