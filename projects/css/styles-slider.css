@@ -77,3 +77,10 @@
 .img-box:hover .bor-top-bottom::after {
 	transform: translateX(-100%);
 }
+
+
+
+
+.container{
+	width: 60vw;
+}
