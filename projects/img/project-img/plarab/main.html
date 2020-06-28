@@ -8,14 +8,12 @@
 	<link rel="shortcut icon" href="../../../../img/ava.ico" type="image/x-icon" />
 	<link href="http://allfont.ru/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 
-	<link rel="stylesheet" href="../../../owl-carousel/css/owl.carousel.css">
-	<link rel="stylesheet" href="../../../owl-carousel/css/owl.theme.green.css">
-
 	<title>Главная - проекты</title>
 
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	
-	<script src="../../../css/slick.min.js"></script>
+
 </head>
 <body>
 
@@ -67,31 +65,28 @@
 	    </div>
     </section>
 
-<!--
-			<div class="owl-carousel owl-theme">
-				<div id='box'><img src="1.jpg"></div>
-				<div id='box'><img src="2.jpg"></div>
-				<div id='box'><img src="3.jpg"></div>
-				<div id='box'><img src="4.jpg"></div>
-			</div>
 
--->
+			
+ <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="1.jpg"></div>
+      <div class="swiper-slide"><img src="2.jpg"></div>
+      <div class="swiper-slide"><img src="3.jpg"></div>
+      
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container');
+  </script>
+
+
+
 	</div>
 </div>
-<script>
-$(function() {
-	$(".owl-carousel").owlCarousel({
-		nav:true,
-		loop:true,
-		responsiveClass:true,
-		responsive:{
-        1000:{
-            items:1,
-        }
-    }
-	});
-});
-	</script>
-	<script src="../../../owl-carousel/js/owl.carousel.js"></script>
+
 </body>
 </html>
