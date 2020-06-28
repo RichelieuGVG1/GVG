@@ -197,3 +197,32 @@ table{
 	padding-left: 15px;
 	padding-right: 15px;
 }
+@media (min-width: 1022px){
+	.swiper-container{
+		display: none;
+	}
+	.dws-wrapper{
+		display: block;
+	}
+}
+
+@media (max-width: 1023px){
+	.swiper-container{
+	width: 60vw;
+	display: flex;
+	justify-content: center;
+	}
+	.swiper-slide img{
+		width: 60vw;
+		height: auto;
+		margin: 15px;
+		transform: translate3d(-16px, 0px, 0px);
+	}
+	.swiper-slide{
+		width: 50vw;
+		height: auto;
+	}
+	.dws-wrapper{
+		display: none;
+	}
+}
