@@ -160,6 +160,9 @@ tr, td{
 	padding: 0px 4vw;
 	text-align: center;
 }
+td{
+	width: 15vw;
+}
 
 table{
 	border-collapse: collapse;
@@ -225,4 +228,19 @@ table{
 	.dws-wrapper{
 		display: none;
 	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.project-lang{
+	padding-left: 0;
 }
