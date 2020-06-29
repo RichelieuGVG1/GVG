@@ -279,3 +279,8 @@ table{
 .project-card:hover .transform{
 	background-color: #710dd3;
 }
+
+#back-button button{
+	background-color: white;
+	border: 1.5px solid grey;
+}
