@@ -91,31 +91,7 @@ ul, li{
 	list-style: none;
 }
 
-.project-card{
-	margin: 20px 30px;
 
-    width: 250px;
-    display: table;
-
-    background-color: #999999;
-    
-}
-
-.project-card:hover{
-	opacity: 0.7;
-}
-.project-card p{
-	z-index: 99999;
-	color: white;
-	text-align: left;
-	padding: 7px;
-	margin: 0;
-}
-.project-card img{
-	width: 100%;
-	border: 0.5px solid white;
-	border-bottom: none;
-}
 a{
 	text-decoration: none!important;
 }
@@ -251,4 +227,49 @@ table{
 #back-button button{
 	margin-bottom: 20px;
 	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.project-card{
+	margin: 20px 30px;
+
+    width: 250px;
+    display: table;
+
+    background-color: #999999;
+    
+}
+
+
+.project-card p{
+	z-index: 99999;
+	color: white;
+	text-align: left;
+	padding: 7px;
+	margin: 0;
+}
+.project-card img{
+	width: 100%;
+	border: 0.5px solid white;
+	border-bottom: none;
+	box-sizing: inherit;
+}
+.transform{
+	overflow: hidden;
+}
+
+.project-card:hover img{
+	transform: scale(1.5);
+	transition: all 0.5s ease-out;
+	opacity: 0.5;
+	
+}
+.project-card:hover .transform{
+	background-color: #710dd3;
 }
