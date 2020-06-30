@@ -42,6 +42,7 @@ $(document).ready(function() {
      r3:'active',
      r4:'2019 - наст. вр.',
      r5:'Гурьянов В., Грачев Д.',
+     text:'Ну а теперь самое время поговорить о сути проекта. Мы озабочены текущей экологической ситуацией, а изучив проблему, пришли к выводу, что люди почти ничего не знают об экологических проблемах, ни о методах их решения. Значит, причина проблемы кроется именно в человеческом незнании, а валяющиеся бутылки и окурки на улицах это следствие проблемы, но чтобы победить проблему, начинать надо с причины. И мы подготовили мастер-классы по экологии для школьников с расчетом на ликвидирование их экологической безграмотности, а также в демонстрационных целях мы разработали стенд для переработки пластика, фотографии которого вы можете просмотреть ниже.',
 
    };
    var eng = {
@@ -57,6 +58,7 @@ $(document).ready(function() {
      r3:'active',
      r4:'2019 - pr. time',
      r5:'Guryanov V., Grachev D.',
+     text:'Well, now is the time to talk about the essence of the project. We are concerned about the current environmental situation, and having studied the problem, we came to the conclusion that people know almost nothing about environmental problems, nor about methods for solving them. This means that the cause of the problem lies precisely in human ignorance, and littered bottles and cigarette butts in the streets are a consequence of the problem, but in order to overcome the problem, one must start with the cause. And we prepared ecology master classes for students with the expectation of eliminating their environmental illiteracy, and for demonstration purposes we developed a stand for plastic processing, photos of which you can see below.',
    };
 
    var dorev = {
@@ -72,6 +74,7 @@ $(document).ready(function() {
      r3:'активенъ',
      r4:'2019 - наст. вр.',
      r5:'Гурьяновъ В., Грачевъ Д.',
+     text:'А теперь, дамы и господа, самое время поговорить о смыслахъ прожекта. Мы весьма озабочены текущей экологической ситуаціей, посему дотошно изучили проблему сію, и пришли къ ​ прескорбному  выводу, что человѣки почти ничего не вѣдаютъ объ экологическихъ проблемахъ, ни объ методахъ борьбы съ оными. Мы же почли должнымъ замѣтить, что причина проблемы кроется именно въ человѣческомъ незнаніи, ​ откудова ​ исходятъ нѣкоторые ​ слѣдствія указанной проблемы, но дабы осилить съ Божіей помощью проблему, начинать надобно съ причины. И мы подготовили уроки по экологіи для школяровъ съ расчетомъ на ихъ скорѣйшее обученіе, а также въ увеселительныхъ цѣляхъ мы изготовили машину для переработки пластика, фотокарточки оной вы вольны просмотрѣть ниже. ',
    };
 
 
