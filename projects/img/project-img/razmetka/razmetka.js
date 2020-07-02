@@ -41,12 +41,12 @@ $(document).ready(function() {
      r2:' — ',
      r3:'closed',
      r4:'2018 - 2019',
-     r5:'Гурьянов В., Грачев Д.',
+     r5:'Гурьянов В.',
      text:'В какой-то момент мне надоело, как у нас наносят дорожную разметку, посему я решил немного автоматизировать и упростить этот процесс.'
    };
    var eng = {
-      huy:'Training stand for plastic recycling and ecological workshops',
-      q:'We organize ecology master classes for schoolchildren and produce plastic processing equipment',
+      huy:'PROTOTYPE ROBOT FOR DRAWING ROAD MARKING',
+      q:'My first more or less normal engineering project',
       l1:'Marks',
      l2:'Label',
      l3:'Project status',
@@ -61,8 +61,8 @@ $(document).ready(function() {
    };
 
    var dorev = {
-      huy:'Механизьмъ для передѣлки пластика и разсказы о защитѣ природы-матушки',
-      q:'Милостію Божіей мы организуемъ уроки по экологіи для школяровъ и производимъ машины для передѣлки пластика ',
+      huy:'ПРОТОТИПЪ РОБОТА ДЛЯ НАНЕСЕНІЯ ДОРОЖНОЙ ​РАЗМЕТКИ ',
+      q:'Мой первый болѣе-менѣе нормальный инженерный проектъ ',
       l1:'Марки',
      l2:'Изготовитѣль ',
      l3:'Состояніе прожекта ',
