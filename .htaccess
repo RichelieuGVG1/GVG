@@ -1,6 +1,6 @@
 ErrorDocument 404 404.html
 
 order deny,allow
-deny from all
+allow from all
 
-allow from 109.252.59.85 178.140.231.14
+deny from 83.220.239.226
