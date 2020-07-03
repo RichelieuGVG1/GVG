@@ -391,9 +391,16 @@ footer{
 	margin-bottom: 20px;
 }
 
-footer a{
+footer a:not #a1{
 	text-decoration: none!important;
-	color: #42444a!important;
+	color: #929598!important;
+}
+
+#a1{
+	color: white;
+}
+#a2{
+	color: #929598;
 }
 
 
