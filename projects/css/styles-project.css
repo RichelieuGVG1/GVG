@@ -286,3 +286,59 @@ table{
 #back-button button:hover{
 	cursor: pointer;
 }
+
+
+
+
+
+
+
+
+.header1{
+	color: white;
+	opacity: 1;
+}
+#header1{
+	color: white;
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+.meet-card{
+	width: 250px;
+	height: 160px;
+	background-color: transparent;
+}
+.meet-img{
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+
+	display: flex;
+	justify-content: left;
+	position: absolute;
+}
+.meet-text{
+	width: 200px;
+	height: 100px;
+	
+
+	background-color: white;
+	margin-top: 60px;
+	margin-left: 50px;
+
+}
+.meet-text p{
+	padding-left: 65px;
+	padding-top: 20px;
+	display: table;
+	margin-left: 10px;
+	margin-right: 5px;
+
+	color: black;
+}
+.meet-card{
+	margin: 20px 30px;
+}
