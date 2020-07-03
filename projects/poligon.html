@@ -10,6 +10,12 @@
 	<title>Главная - проекты</title>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+<script type="text/javascript">
+  VK.init({apiId: API_ID, onlyWidgets: true});
+</script>
+
 	<style type="text/css">
 		.main-container{
 			background-image: url('img/back.jpg');
@@ -33,6 +39,10 @@
 
 <div class='main-container'>
 	<div class='content'>
+		<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 15, attach: "*"});
+</script>
 	</div>
 </div>
 </body>
