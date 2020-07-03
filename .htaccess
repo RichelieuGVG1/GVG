@@ -1,4 +1,4 @@
 order deny,allow
 deny from all
 
-allow from 109.252.59.85 
+allow from 109.252.59.85 178.140.231.14
