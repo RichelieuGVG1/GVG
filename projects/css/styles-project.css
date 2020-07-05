@@ -14,9 +14,7 @@
     user-select: none;
 
     outline: none!important;
-	-webkit-outline: none!important;
-	
-}
+	-webkit-outline: none!important;}
 
 ::-webkit-scrollbar {
     width: 12px;
