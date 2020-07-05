@@ -7,20 +7,21 @@
 	<link rel="shortcut icon" href="../img/ava.ico" type="image/x-icon" />
 	<link href="http://allfont.ru/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 
-	<title class="change" caption='title'>MY EVENTS</title>
+	<title class="change" caption='title'>MY PHOTOS</title>
 
 	<meta name="description" content="Проекты Гурьянова Василия">
     <meta name="keywords" content="Василий Гурьянов, Гурилий Васьянов, web-разработчик, фотограф, астрономия, творчество">
     <meta name="copyright" lang="ru" content="Гурьянов Василий">
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="photo.js"></script>
 
 	
 
 	<style type="text/css">
 		.main-container{
 			background-image: url('../projects/img/back.jpg');
-			
+			padding: 0;
 
 		    z-index: -100;
 
@@ -34,6 +35,14 @@
 			margin: 0;
 			background-color: rgba(0,0,0,0.8);
 		}
+		a:hover img{
+			transform: scale(1.2);
+		}
+		#img-card{
+			border: 3px solid white;
+			margin: 30px;
+		}
+		
 	</style>
 </head>
 <body>
@@ -41,15 +50,306 @@
 <div class='main-container'>
 	<div class='content'>
 		
-		<strong><p class='header1 change' caption='header'>MY EVENTS | МОИ МЕРОПРИЯТИЯ</p></strong>
+		<strong><p class='header1 change' caption='header'>МОИ ФОТОГРАФИИ</p></strong>
 
 		<hr class='main-hr'>
+		<ul class='language project-lang'>
+			<li  class='rus'>
+				<img src="../img/rus.png" width="30" style="cursor: pointer;">
+			</li>
+			<li class='eng'>
+				<img src="../img/usa.png"  width="30" height="20" style="cursor: pointer;">
+			</li>
+			
+			
+		</ul>
 		
-		<p id='header1' class='change' caption='p1'>Все мероприятия</p>
+		<p id='astro' class='change header2' caption='astro'>Астрофото</p>
 		<ul link="#42444a" vlink="#42444a" alink="#42444a" style="padding-left: 0px">
 
 			<li>
-				<img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg" width='300'>
+				<a href="foto/2.jpg">
+				<img id='img-card' src="foto/2.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/5.jpg">
+				<img id='img-card' src="foto/5.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/6.jpg">
+				<img id='img-card' src="foto/6.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/8.jpg">
+				<img id='img-card' src="foto/8.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/9.jpg">
+				<img id='img-card' src="foto/9.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/10.jpg">
+				<img id='img-card' src="foto/10.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/21.jpg">
+				<img id='img-card' src="foto/21.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/23.jpg">
+				<img id='img-card' src="foto/23.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/24.jpg">
+				<img id='img-card' src="foto/24.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/28.jpg">
+				<img id='img-card' src="foto/28.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/45.jpg">
+				<img id='img-card' src="foto/45.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/46.jpg">
+				<img id='img-card' src="foto/46.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/47.jpg">
+				<img id='img-card' src="foto/47.jpg" width='200'>
+				</a>
+			</li>
+		</ul>
+
+
+
+		<p id='city' class='change header2' caption='city'>Города</p>
+		<ul link="#42444a" vlink="#42444a" alink="#42444a" style="padding-left: 0px">
+
+			<li>
+				<a href="foto/3.jpg">
+				<img id='img-card' src="foto/3.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/4.jpg">
+				<img id='img-card' src="foto/4.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/15.jpg">
+				<img id='img-card' src="foto/15.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/16.jpg">
+				<img id='img-card' src="foto/16.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/17.jpg">
+				<img id='img-card' src="foto/17.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/18.jpg">
+				<img id='img-card' src="foto/18.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/19.jpg">
+				<img id='img-card' src="foto/19.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/20.jpg">
+				<img id='img-card' src="foto/20.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/22.jpg">
+				<img id='img-card' src="foto/22.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/29.jpg">
+				<img id='img-card' src="foto/29.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/30.jpg">
+				<img id='img-card' src="foto/30.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/31.jpg">
+				<img id='img-card' src="foto/31.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/32.jpg">
+				<img id='img-card' src="foto/32.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/33.jpg">
+				<img id='img-card' src="foto/33.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/34.jpg">
+				<img id='img-card' src="foto/34.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/35.jpg">
+				<img id='img-card' src="foto/35.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/36.jpg">
+				<img id='img-card' src="foto/36.jpg" width='200'>
+				</a>
+			</li>
+		</ul>
+
+
+
+		<p id='land' class='change header2' caption='land'>Пейзажи</p>
+		<ul link="#42444a" vlink="#42444a" alink="#42444a" style="padding-left: 0px">
+
+			<li>
+				<a href="foto/1.jpg">
+				<img id='img-card' src="foto/1.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/7.jpg">
+				<img id='img-card' src="foto/7.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/48.png">
+				<img id='img-card' src="foto/48.png" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/51.png">
+				<img id='img-card' src="foto/51.png" width='200'>
+				</a>
+			</li>
+
+		</ul>
+
+
+
+		<p id='macro' class='change header2' caption='macro'>Макро</p>
+		<ul link="#42444a" vlink="#42444a" alink="#42444a" style="padding-left: 0px">
+
+			<li>
+				<a href="foto/37.jpg">
+				<img id='img-card' src="foto/37.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/38.jpg">
+				<img id='img-card' src="foto/38.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/39.jpg">
+				<img id='img-card' src="foto/39.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/40.jpg">
+				<img id='img-card' src="foto/40.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/41.jpg">
+				<img id='img-card' src="foto/41.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/42.jpg">
+				<img id='img-card' src="foto/42.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/43.jpg">
+				<img id='img-card' src="foto/43.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/44.jpg">
+				<img id='img-card' src="foto/44.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/49.png">
+				<img id='img-card' src="foto/49.png" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/50.png">
+				<img id='img-card' src="foto/50.png" width='200'>
+				</a>
+			</li>
+		</ul>
+
+
+
+		<p id='film' class='change header2' caption='film'>Пленка</p>
+		<ul link="#42444a" vlink="#42444a" alink="#42444a" style="padding-left: 0px">
+
+			<li>
+				<a href="foto/11.jpg">
+				<img id='img-card' src="foto/11.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/12.jpg">
+				<img id='img-card' src="foto/12.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/13.jpg">
+				<img id='img-card' src="foto/13.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/14.jpg">
+				<img id='img-card' src="foto/14.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/25.jpg">
+				<img id='img-card' src="foto/25.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/26.jpg">
+				<img id='img-card' src="foto/26.jpg" width='200'>
+				</a>
+			</li>
+			<li>
+				<a href="foto/27.jpg">
+				<img id='img-card' src="foto/27.jpg" width='200'>
+				</a>
 			</li>
 		</ul>
 
