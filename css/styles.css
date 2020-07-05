@@ -4,6 +4,15 @@
     word-spacing: 3px;
     letter-spacing: 1.5px;
     scroll-behavior: smooth;
+
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;    
+    -moz-user-select: none;   
+    -ms-user-select: none; 
+    user-select: none;
+
+    outline: none!important;
 	
 }
 html, body{
