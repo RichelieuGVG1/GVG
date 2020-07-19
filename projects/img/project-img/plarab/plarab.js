@@ -46,7 +46,7 @@ $(document).ready(function() {
 
    };
    var eng = {
-      huy:'Training stand for plastic recycling and ecological workshops',
+      huy:'RAINING STAND FOR RECYCLING PLASTIC AND ECOLOGICAL WORKSHOPS',
       q:'We organize ecology master classes for schoolchildren and produce plastic processing equipment',
       l1:'Marks',
      l2:'Label',
@@ -62,7 +62,7 @@ $(document).ready(function() {
    };
 
    var dorev = {
-      huy:'Механизьмъ для передѣлки пластика и разсказы о защитѣ природы-матушки',
+      huy:'МЕХАНИЗЬМЪ ДЛЯ ПЕРЕДѣЛКИ ПЛАСТИКА И РАЗСКАЗЫ О ЗАЩИТѣ ПРИРОДЫ-МАТУШКИ',
       q:'Милостію Божіей мы организуемъ уроки по экологіи для школяровъ и производимъ машины для передѣлки пластика ',
       l1:'Марки',
      l2:'Изготовитѣль ',
