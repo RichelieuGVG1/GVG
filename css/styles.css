@@ -50,7 +50,8 @@ html, body{
 }
 .strelka{
 	z-index: 1;
-	margin-top: 250px;
+	bottom: 0;
+	margin-bottom: 30px;
 	position: absolute;
 	animation-name: floating;
     -webkit-animation-name: floating;
