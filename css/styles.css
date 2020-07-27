@@ -488,6 +488,9 @@ footer .sozialistische-icons li{
 a{
 	text-decoration: none!important;
 }
+a:hover{
+	text-decoration: underline!important;
+}
 #ul-left a{
 	color: white;
 	cursor: pointer;
