@@ -36,6 +36,7 @@ html, body{
 	}
 .main-info{
 	background-color: transparent;
+
 }
 
 @media(min-width: 1000px){ /*desktop*/
@@ -90,6 +91,7 @@ html, body{
 	.v2{
 		height: 2px;
 		width: 70%;
+		margin-top: 10px;
 		border-radius: 5px;
 	}
 }
@@ -102,14 +104,35 @@ html, body{
 
 .hr1{
 	background-color: white;
-	border-radius: 2.5px;
+	border-radius: 10px;
 	width: 80%;
 }
-
+.hr1, .v2{
+	border-radius: 10px;
+}
 .icons{
 	display: flex;
 	justify-content: row;
 	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: -10px;
 
+}
+.ded{
+	justify-content: left!important;
+}
+
+.ico-hr{
+	display: flex;
+	justify-content: row;
+	margin-top: 10px;
+}
+.ihr{
+	width: 10%;
+	height: 2px;
+	border: none;
+	background-color: white;
+}
+.language{
+	padding-left: 0;
 }
