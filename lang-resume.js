@@ -51,7 +51,7 @@ $(document).ready(function() {
    var eng = {
       main_head: 'VASILY GURYANOV',
       r1:'WEB-developer, engineer, python-programmer',
-      r2:'Adress: Moscow City',
+      r2:'Address: Moscow City',
       r3:'Public speaking',
       r4:'In-depth interview, communication with the client',
       r5:'Key skills:',
