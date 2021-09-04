@@ -6,11 +6,7 @@
     line-height: 25px;
     scroll-behavior: smooth;
 
-    -webkit-touch-callout: none; 
-    -webkit-user-select: none;    
-    -moz-user-select: none;   
-    -ms-user-select: none; 
-    user-select: none;
+    
 
     outline: none!important;
 	-webkit-outline: none!important;}
